@@ -1,0 +1,14 @@
+
+<div class="result-container">
+  <h1>Resultado do Quiz</h1>
+  <p>Parabéns!!!</p>
+  <p>Você acertou {{ pontuacao }} de {{ totalPerguntas }} perguntas!</p>
+  <button (click)="reiniciarQuiz()"> Tentar Novamente</button>
+  <div class="barra-progresso">
+  <div class="progresso" [style.width.%]="(pontuacao / totalPerguntas) * 100"></div>
+</div>
+
+</div>
+
+
+

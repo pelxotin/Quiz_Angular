@@ -1,0 +1,9 @@
+
+<div class="quiz-container">
+  <h2>{{ perguntas[indiceAtual].pergunta }}</h2>
+  <ul>
+    <li *ngFor="let alt of perguntas[indiceAtual].alternativas; let i = index">
+      <button (click)="responder(i)">{{ alt }}</button>
+    </li>
+  </ul>
+</div>

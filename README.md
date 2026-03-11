@@ -28,3 +28,7 @@ O objetivo deste projeto é praticar conceitos de **desenvolvimento frontend com
 - lógica de programação aplicada a interfaces
 
 Este projeto faz parte dos meus estudos em **desenvolvimento web e programação**.
+---
+## 🌐 Projeto Online
+
+🔗 https://pelxotin.github.io/Quiz_Angular/
